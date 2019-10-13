@@ -8,9 +8,6 @@ class Books {
 
 	  let  booksDel = document.querySelector('.button-reset');
       booksDel.addEventListener('click', this.delBooks.bind(this));
-
-
-
    }
 
    //кол-во книг на полке, в зависимости от ширины окна браузера
