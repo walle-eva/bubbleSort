@@ -1,0 +1,85 @@
+@@font-face{
+	font-family: 'ArbatDi';
+	src: url('../font/ArbatDi.ttf');
+	font-style: normal; 
+	font-weight: normal;
+}	
+.wrapper{
+	padding: 5%;
+	height: 100%;
+	max-width: 950px;
+    margin: auto;
+}
+.container{
+	height: 100%;
+}
+.button{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	
+}
+.button div{
+	flex-basis: auto;
+}
+button{
+	margin: 10px; 
+	padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #210f6b;
+    color: #fff;
+    font-family: ArbatDi;
+    font-size: 18px;
+	cursor: pointer;
+}
+.bookshelf{
+	min-height: 300px;
+	margin-top: 50px;
+}
+.bookshelf-containerbooks{
+	position: relative;
+	min-height: 250px;
+	display: flex;
+}
+.bookshelf-basis{
+	min-height: 40px;
+	background: url(../img/background.png)no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+.book{
+	position: absolute;
+	width: 50px;
+	height: 250px;
+	background: url(../img/book-wrapper.png)no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	transition: .5s ease-in-out;
+}
+.book-numb{
+	position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    text-align: center;
+	color: #b4946d;
+	font-size: 16px;
+	font-family: Arial;
+}
+.info.active{
+	margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #210f6b;
+    color: #fff;
+    font-family: ArbatDi;
+    font-size: 18px;
+}
+.info-current{
+	margin-top: 20px;
+}
+.disable{
+	background: #ccc;
+}
